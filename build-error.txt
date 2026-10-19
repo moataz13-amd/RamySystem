@@ -1,0 +1,69 @@
+﻿
+> ramysystem@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 52 modules transformed.
+node.exe : [31mΓ£ù[39m Build 
+failed in 520ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo          : Not 
+   Specified: ([31mΓ£ù[39m Bui  
+  ld failed in 520ms:String) []   
+ , RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+[31merror during build:
+[31m[vite]: Rollup failed to 
+resolve import "react-to-print" 
+from "E:/Projects/ramySystem/src/p
+ages/AdminDashboard.jsx".
+This is most likely unintended 
+because it can break your 
+application at runtime.
+If you do want to externalize 
+this module explicitly add it to
+`build.rollupOptions.external`[31
+m
+    at viteLog (file:///E:/Project
+s/ramySystem/node_modules/vite/dis
+t/node/chunks/config.js:33635:57)
+    at file:///E:/Projects/ramySys
+tem/node_modules/vite/dist/node/ch
+unks/config.js:33669:73
+    at onwarn (file:///E:/Projects
+/ramySystem/node_modules/@vitejs/p
+lugin-react/dist/index.js:76:7)
+    at file:///E:/Projects/ramySys
+tem/node_modules/vite/dist/node/ch
+unks/config.js:33669:28
+    at onRollupLog (file:///E:/Pro
+jects/ramySystem/node_modules/vite
+/dist/node/chunks/config.js:33664:
+63)
+    at onLog (file:///E:/Projects/
+ramySystem/node_modules/vite/dist/
+node/chunks/config.js:33467:4)
+    at file:///E:/Projects/ramySys
+tem/node_modules/rollup/dist/es/sh
+ared/node-entry.js:20981:32
+    at Object.logger [as onLog] (f
+ile:///E:/Projects/ramySystem/node
+_modules/rollup/dist/es/shared/nod
+e-entry.js:22968:9)
+    at ModuleLoader.handleInvalidR
+esolvedId (file:///E:/Projects/ram
+ySystem/node_modules/rollup/dist/e
+s/shared/node-entry.js:21712:26)
+    at file:///E:/Projects/ramySys
+tem/node_modules/rollup/dist/es/sh
+ared/node-entry.js:21670:26[39m
